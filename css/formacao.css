@@ -41,6 +41,7 @@ header{
     box-shadow: 3px 5px 10px 1px #00000096;
 }
 
+/* Estilos dos links do header */
 ul{
     list-style-type: none;
     display: inline-flex;
@@ -66,17 +67,20 @@ ul li a:hover{
     transition: all 0.3s;
 }
 
+/* Gif do header */
 .gif{
     width: 3vw;
     margin-top: -2vh;
 }
 
+/* Seção com o título */
 section{
     font-family: "bungee";
     font-size: 2vw;
     margin: 15vh 0 0 15vw;
 }
 
+/* Estilo da parte que contém as informações da formação/experiência */
 main{
     margin-top: 2vw;
     display: flex;
@@ -87,18 +91,10 @@ main{
     box-shadow: 3px 0px 10px 1px #00000096;
 }
 
+/* Estilo do texto dentro da tag main */
 .texto{
     margin: 6vw 0 0 15vw;
     font-size: 20px;
-}
-
-.texto a{
-    color: #3a5b29;
-}
-
-.texto a:hover{
-    color: white;
-    text-decoration: underline;
 }
 
 .inst{
@@ -106,6 +102,7 @@ main{
     font-size: 1vw;
 }
 
+/* Estilo do gif dentro da tag main */
 .gif2{
     margin: 3vw 0 0 25vw;
     width: 15vw;

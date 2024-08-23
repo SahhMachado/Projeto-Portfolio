@@ -41,6 +41,7 @@ header{
     box-shadow: 3px 5px 10px 1px #00000096;
 }
 
+/* Estilos dos links do header */
 ul{
     list-style-type: none;
     display: inline-flex;
@@ -66,17 +67,20 @@ ul li a:hover{
     transition: all 0.3s;
 }
 
+/* Gif do header */
 .gif{
     width: 3vw;
     margin-top: -2vh;
 }
 
+/* Seção com o título */
 section{
     font-family: "bungee";
     font-size: 2vw;
     margin: 15vh 0 0 15vw;
 }
 
+/* Estilo da parte que contém os projetos do portfólio */
 main{
     margin-top: 2vw;
     display: flex;
@@ -88,6 +92,7 @@ main{
     box-shadow: 3px 0px 10px 1px #00000096;
 }
 
+/* Estilo dos cards de projetos */
 .cards{
     margin: 3vw 6vw;
     width: 15vw;
@@ -100,27 +105,43 @@ main{
     box-shadow: 3px 5px 10px 1px #00000096;
 }
 
-.cards:hover{
-    transform: scale(1.1);
-}
-
 .c1{
     background-image: url('../img/projetoApad1.jpg');
+}
+
+.c1:hover{
+    background-image: url('../img/card1.png');
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 .c2{
     background-image: url('../img/projetoLacarte1.jpg');
 }
 
+.c2:hover{
+    background-image: url('../img/card2.png');
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
 .c3{
     background-image: url('../img/jogoCartas1.jpg');
 }
 
+.c3:hover{
+    background-image: url('../img/card3.png');
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+/* Estilo dos links dos cards */
 a{
     color: #3a5b29;
     text-decoration: none;
 }
 
+/* Estilos das legendas dos cards */
 .legenda1{
     margin: -3vh 11.5vw;
     font-weight: bold;

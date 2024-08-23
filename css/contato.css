@@ -80,10 +80,11 @@ section{
     margin: 15vh 0 0 15vw;
 }
 
-/* Estilo da parte que contém as informações sobre mim */
+/* Estilo da parte que contém os campos de contato */
 main{
     margin-top: 2vw;
     display: flex;
+    justify-content: left;
     background-color: #b3c5a0;
     height: 50vh;
     -webkit-box-shadow: 3px 0px 10px 1px #00000096;
@@ -91,22 +92,97 @@ main{
     box-shadow: 3px 0px 10px 1px #00000096;
 }
 
-/* Estilo do texto da tag main */
-.texto{
-    margin: 5vw 0 0 15vw;
+/* Estilo do formulário da tag main */
+.formulario{
+    margin: 2vw 0 0 15vw;
     font-size: 20px;
 }
 
-/* Estilo da imagem de perfil */
-.perfil{
-    margin: 3vw 0 0 10vw;
-    width: 15vw;
-    height: 15vw;
-    background-image: url('../img/perfil.jpg');
-    background-size: cover;
-    border: 10px solid #3a5b29;
-    border-radius: 100%;
+/* Estilo dos labels do formulário */
+.titulo{
+    font-weight: bold;
+}
+
+/* Estilo dos campos do formulário */
+.campo{
+    border: none;
+    border-radius: 5px;
+    background-color: #3a5b29;
+    color: #bfdbb0;
+    font-family: "jost";
+    padding: 10px;
+    margin: 0 0 1vh 0;
+    resize: none;
+    width: 20vw;
+}
+
+/* Estilo dos placeholders */
+::-webkit-input-placeholder{
+    color: white;
+    opacity: 60%;
+}
+:-moz-placeholder{
+    color: white;
+    opacity: 60%;
+} 
+::-moz-placeholder{
+    color: white;
+    opacity: 60%;
+}
+:-ms-input-placeholder{
+    color: white;
+    opacity: 60%;
+}
+ 
+ 
+/* Estilo para remover as linhas dos campos */
+.campo:focus{
+    border: none;
+    background-color: #3a5b29;
+    box-shadow: 0 0 0 0;
+    border: none;
+    outline: 0;
+    padding: 10px;
+}
+
+/* Estilo do botão do formulário */
+.botao{
+    background-color: #3a5b29;
+    border: none;
+    border-radius: 5px;
+    width: 21vw;
+    height: 5vh;
+    color: #b3c5a0;
+    font-family: "bungee";
+    margin: 3vh 0 0 0;
+}
+
+.botao:hover{
+    cursor: pointer;
+    transform: scale(1.1);
     -webkit-box-shadow: 3px 5px 10px 1px #00000096;
     -moz-box-shadow: 3px 5px 10px 1px #00000096;
     box-shadow: 3px 5px 10px 1px #00000096;
+}
+
+/* Estilo do título da parte de redes sociais */
+.redes{
+    margin: 2.5vw 0 0 25vw;
+    width: 15vw;
+    height: 15vw;
+    font-family: "bungee";
+    font-size: 1.5vw;    
+}
+
+/* Estilo dos ícones das redes sociais */
+.iconesRedes img{
+    width: 4vw;
+}
+
+.iconesRedes img:hover{
+    transform: scale(1.1);
+}
+
+.iconesRedes a:hover{
+    background-color: transparent;
 }
