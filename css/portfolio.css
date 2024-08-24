@@ -84,6 +84,7 @@ section{
 main{
     margin-top: 2vw;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     background-color: #b3c5a0;
     height: 50vh;
