@@ -42,6 +42,8 @@ body::-webkit-scrollbar-thumb{
 }
 
 header{
+    position: fixed;
+    top: 0;
     color: white;
     background-color: #3a5b29;
     font-family: "bungee";
@@ -90,7 +92,7 @@ ul li a:hover{
 section{
     font-family: "bungee";
     font-size: 2vw;
-    margin: 5% 0 0 10%;
+    margin: 10% 0 0 10%;
 }
 
 /* Estilo da parte que contém as informações da formação/experiência */
