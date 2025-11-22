@@ -84,7 +84,7 @@ section{
 main{
     margin-top: 2vw;
     background-color: #b3c5a0;
-    height: 50vh;
+    height: 55vh;
     -webkit-box-shadow: 3px 0px 10px 1px #00000096;
     -moz-box-shadow: 3px 0px 10px 1px #00000096;
     box-shadow: 3px 0px 10px 1px #00000096;
@@ -122,7 +122,7 @@ main::-webkit-scrollbar-thumb{
 
 /* Estilo dos cards de projetos */
 .cards{
-    margin: 3vw;
+    margin: 5vw 3vw;
     width: 15vw;
     height: 15vw;
     background-size: cover;
@@ -159,6 +159,16 @@ main::-webkit-scrollbar-thumb{
 
 .c3:hover{
     background-image: url('../img/card3.png');
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.c4{
+    background-image: url('../img/projetoEmBreve.jpg');
+}
+
+.c4:hover{
+    background-image: url('../img/card4.png');
     transform: scale(1.1);
     cursor: pointer;
 }
