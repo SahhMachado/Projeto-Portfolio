@@ -77,25 +77,52 @@ ul li a:hover{
 section{
     font-family: "bungee";
     font-size: 2vw;
-    margin: 15vh 0 0 15vw;
+    margin: 5% 0 0 10%;
 }
 
 /* Estilo da parte que contém os projetos do portfólio */
 main{
     margin-top: 2vw;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
     background-color: #b3c5a0;
     height: 50vh;
     -webkit-box-shadow: 3px 0px 10px 1px #00000096;
     -moz-box-shadow: 3px 0px 10px 1px #00000096;
     box-shadow: 3px 0px 10px 1px #00000096;
+    overflow-y: hidden;
+    overflow-x: auto;
+    /* padding-left: 10vw; */
+    box-sizing: border-box;
+}
+
+main::-webkit-scrollbar {
+  height: 8px; /* para scroll horizontal */
+}
+
+main::-webkit-scrollbar-track{
+  background: transparent;
+}
+
+main::-webkit-scrollbar-thumb{
+  background-color: #3a5b29;
+  border-radius: 6px;
+}
+
+.projetos{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.texto{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    width: 100%;
 }
 
 /* Estilo dos cards de projetos */
 .cards{
-    margin: 3vw 6vw;
+    margin: 3vw;
     width: 15vw;
     height: 15vw;
     background-size: cover;
@@ -142,13 +169,7 @@ a{
     text-decoration: none;
 }
 
-/* Estilos das legendas dos cards */
-.legenda1{
-    margin: -3vh 11.5vw;
-    font-weight: bold;
-}
-
-.legenda2{
-    margin: -3vh 11vw;
-    font-weight: bold;
+.legenda{
+    font-weight: bold; 
+    margin: 0 8%;
 }
