@@ -28,6 +28,19 @@ body{
     color: #3a5b29;
 }
 
+body::-webkit-scrollbar {
+  width: 8px; /* para scroll horizontal */
+}
+
+body::-webkit-scrollbar-track{
+  background: transparent;
+}
+
+body::-webkit-scrollbar-thumb{
+  background-color: #3a5b29;
+  border-radius: 6px;
+}
+
 header{
     color: white;
     background-color: #3a5b29;

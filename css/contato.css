@@ -28,6 +28,19 @@ body{
     color: #3a5b29;
 }
 
+body::-webkit-scrollbar {
+  width: 8px; /* para scroll horizontal */
+}
+
+body::-webkit-scrollbar-track{
+  background: transparent;
+}
+
+body::-webkit-scrollbar-thumb{
+  background-color: #3a5b29;
+  border-radius: 6px;
+}
+
 header{
     color: white;
     background-color: #3a5b29;
@@ -86,7 +99,7 @@ main{
     display: flex;
     justify-content: left;
     background-color: #b3c5a0;
-    height: 50vh;
+    height: 55vh;
     -webkit-box-shadow: 3px 0px 10px 1px #00000096;
     -moz-box-shadow: 3px 0px 10px 1px #00000096;
     box-shadow: 3px 0px 10px 1px #00000096;
@@ -95,7 +108,7 @@ main{
 /* Estilo do formulário da tag main */
 .formulario{
     margin: 1% 15%;
-    font-size: 20px;
+    font-size: 1vw;
 }
 
 /* Estilo dos labels do formulário */
@@ -154,7 +167,7 @@ main{
     height: 5vh;
     color: #b3c5a0;
     font-family: "bungee";
-    margin: 3vh 0 0 0;
+    margin: 1vh 0 0 0;
 }
 
 .botao:hover{
